@@ -1,0 +1,68 @@
+*{
+            box-sizing: border-box;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .mid-container{
+            max-width: 1000px;
+            margin:auto;
+        }
+        .card{
+            max-width: 450px;
+          margin-left: 470px;
+        }
+        input{
+            width: 450px;
+            margin-bottom: 5px; 
+            background-color: rgb(13, 96, 65);   
+            border: none; 
+            padding: 3px;
+        }
+        textarea{
+            width: 450px;
+            height: 100px;
+            resize: none;
+            background-color:rgb(13, 96, 65); 
+            padding: 3px;
+            border: none;
+        }
+        input::placeholder{
+            color: white;
+        }
+        textarea::placeholder{
+            color: white;
+            font-size: 14px;
+        }
+        .card>form>button{
+            float: right;
+           margin-bottom: 4px;
+           font-size: 16px;
+           margin-top: 5px;
+            
+        }
+        .mid-heading{
+            display: flex;
+        }
+        .mid-heading p{
+            margin-left:85px ;
+            font-size: 16px;
+            color: white;
+           
+        
+        }
+        .mid-heading h1{
+            font-size:70px ;
+            margin: 0;
+            padding: 0; 
+            margin-left: 40px;
+            color: white;
+         }
+         .mid-container .text{
+            color: white;
+            margin-left: 40px;
+         }
+         .mid-container .social-icon{
+            margin-left: 40px;
+         }

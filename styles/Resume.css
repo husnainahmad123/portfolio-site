@@ -1,0 +1,87 @@
+body{
+            background-color: rgb(19, 58, 44);
+            color: white;
+            
+        }
+        .main-heading .heading{
+            border-bottom: 1px solid ;
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+            
+        }
+        .main-heading h1{
+            font-size: 46px;
+            margin-left: 60px;
+            
+        }
+       
+        .red-card1{
+            width: 120px;
+            background-color:rgb(59, 114, 14);
+            height:110px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            padding: 35px 14px;
+          
+        }
+        .red-card2{
+            width: 130px;
+            background-color:rgb(59, 114, 14);
+            height:100px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            padding: 40px 14px;
+        }
+        .red-card3{
+             width: 130px;
+            background-color:rgb(59, 114, 14);
+            background-color:;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            padding: 10px 20px;
+
+        }
+        
+        .red-card-container{
+            display: flex;
+            border-bottom: 1px solid;
+            padding: 40px 0px;
+        }
+        .main-container{
+            display: flex;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .red-cardtext{
+            margin-left: 50px;
+            margin-right: 80px;
+        }
+        .red-cardtextmargin{
+            margin: 0;
+        }
+        .left-container{
+            width: 800px;
+            margin-left: 50px;
+        }
+        .right-container{
+            width: 200px;
+            margin: 40px 30px 0px 40px;
+        }
+        .right-container h1,.skill{
+            border-bottom: 1px solid ;
+            padding: 0px 0px 20px 0px;
+        }

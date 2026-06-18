@@ -1,0 +1,102 @@
+       .protfolio-img img{
+            width: 370px;
+            border-radius: 50%;
+            margin-left: 40px;
+
+        }
+        .mainpage-headings h1{
+            font-size: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color:white;
+            margin:0px 0px 0px 60px;
+            
+        }
+        .mainpage-headings h2{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            margin-left: 60px;
+        }
+        .red-card{
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color:  rgb(9, 11, 79);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-style: italic;
+            font-size: 16px;
+            cursor: pointer;
+            
+        }
+        .sky-card{
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color:  rgb(31, 212, 218);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-style: italic;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .yellowgreen-card{
+            width: 130px;
+            height: 130px;  
+            border-radius: 50%;
+            background-color:rgb(231, 134, 15);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-style: italic;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .card-container{
+            display: flex;
+            gap: 25px;
+            margin-left: 45px;
+            margin-bottom: 30px;
+          
+        }
+        .card-container div{
+            animation: growBounce 1s ease-out forwards;
+            opacity: 0;
+            animation-delay: 2s;
+        }
+        .skills{
+            font-size: 16px;
+            margin: 0;
+            color: white;
+        }
+    
+       .mid-container{
+        display: flex;
+       }
+       .max-container{
+        max-width: 1000px;
+        margin: auto;
+       }
+       .mid-containertext{
+        margin-left: 50px;
+       }
+       .red-card:hover {
+        background-color:brown;
+       }
+       .sky-card:hover{
+        background-color: rgb(26, 158, 127);
+        color: black;
+       }
+       .yellowgreen-card:hover{
+        background-color: red;
+       
+       }
